@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+
+            body
+            {
+                background-color: aliceblue;
+                background-image: url("images/avenger_city.png");
+                font-family: "Comic Sans MS";
+                background-attachment: fixed;
+            }
+            .chapter-div
+            {
+                width: 80%;
+                min-height: 100px;
+                margin-left: auto;
+                margin-right: auto;
+                display: grid;
+                grid-template-rows: auto auto;
+                grid-template-areas: 
+                    "title"
+                    "content";
+                padding-top: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                background-color: rgba(255, 255, 255, 0.7);
+                border-radius: 20px;
+            }
+
+            .chapter-title
+            {
+                text-align: center;
+                grid-area: title;
+                padding: 0px;
+                margin: 0px;
+                font-family: super;
+                font-size: 80px;
+                margin-bottom: 10px;
+                letter-spacing: 2px;
+            }
+
+            .chapter-content
+            {
+                grid-area: content;
+                display: grid;
+                grid-template-areas: "video description";
+            }
+
+            .chapter-video
+            {
+                grid-area: video;
+            }
+
+            .chapter-desc-box
+            {
+                grid-area: description;
+                margin: 8px;
+            }
+
+            .chapter-desc
+            {
+                font-size: 30px;
+                margin-top: 0px;
+                font-family: "Comic Sans MS";
+            }
+
+            .listed-resource
+            {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+
+            .zip
+            {
+                width: 40px;
+                height: 40px;
+            }
+
+            .zip-txt
+            {
+                display: inline;
+                font-size: 18px;
+                margin-bottom: 0px;
+                margin-top: 3px;
+                margin-left: 10px;
+            }
+
+            .super-remark-cont
+            {
+                display: flex;
+                align-items: center;
+                width: min-content;
+                min-height: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 10px;
+                grid-template-areas: "remark txt";
+                grid-template-columns: auto auto;
+            }
+
+            .remark-img
+            {
+                width: 20em;
+            }
+
+            .remark-txt
+            {
+                grid-area: txt;
+                font-size: 30px;
+                text-align: center;
+                margin-left: 10px;
+                margin-right: 10px;
+                font-family: komika;
+                min-width: 10em;
+                color: rgb(255, 0, 0);
+            }
+
+            @font-face
+            {
+                font-family: "super";
+                src: url("fonts/Bangers.ttf");
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face
+            {
+                font-family: "komika";
+                src: url("fonts/KOMIKAX_.ttf");
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face
+            {
+                font-family: "potato";
+                src: url("fonts/Potato_sans-Black.otf");
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face
+            {
+                font-family: "batmf";
+                src: url("fonts/batmfo__.ttf");
+                font-weight: normal;
+                font-style: normal;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <!--Join the backlog avenger-->
+        <div style="background-color: rgba(255, 255, 255, 0.7); width: 60%; margin-left: auto; margin-right: auto; padding: 10px; border-radius: 10px;">
+            <h3 style="text-align: center; font-family: super; font-size: 40px; color: rgb(220, 0, 0); letter-spacing: 3px; padding-left: 20px; padding-right: 20px; margin: 0px;">Join the Backlog Avenger in his quest to eliminate paper processes in State & Local Government!</h3>
+            <p style="margin: 0px; font-size: 20px; color: white; text-align: center;">
+                Follow this guide below to join forces with the <b>Backlog Avenger</b> and put a permanent <b>END</b> to Dr. Paper and his mischief!
+                <br>
+                Reach out to avenger@msftslg.com with any questions.
+            </p>
+        </div>
+
+        <!--Hello, from the Backlog Avenger-->
+        <div style="height: 500px; width: 80px; margin-left: auto; margin-right: auto; display: flex; align-items: center; width: min-content; background-color: rgba(0, 0, 0, 0.9); border-radius: 25px; margin-top: 20px; margin-bottom: 20px;">
+            <h3 style="color: whitesmoke; font-family: potato; width: 400px; text-align: right; font-size: 30px; padding-left: 30px;">
+                "Do not worry, citizen. I am here to save you from that insidious backlog, once and for all!"<br><br><i style="font-family: batmf; font-size: 30px; color: red;">Backlog Avenger</i>
+            </h3>
+            <img src="https://i.imgur.com/1TXYEKJ.png" style="height: 100%;">
+        </div>
+
+        
+
+        <!--Chapter 1-->
+        <div class="chapter-div">
+            <h2 class="chapter-title">Superpower 1: Dataverse</h2>
+            <div class="chapter-content">
+                <iframe class="chapter-video" width="560" height="315" src="https://www.youtube.com/embed/wezSXX_yWig?si=aouE7-wfBbYr6ARG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="chapter-desc-box">
+                    <p class="chapter-desc">In the first chapter, we explore Dataverse, the unsung hero of the Power Platform! Join us as we learn how Dataverse can solve your problems!</p>
+                    <div class="listed-resource">
+                        <img class="zip" style="grid-area: zipimg;" src="https://i.imgur.com/aLkdzjh.png">
+                        <a class="zip-txt" href="" target="_blank">Download the Backlog Avenger's solution here</a>
+                    </div>
+                    <div class="listed-resource">
+                        <img class="zip" style="grid-area: zipimg;" src="https://i.imgur.com/5e8KJiX.png">
+                        <a class="zip-txt" href="https://learn.microsoft.com/en-us/training/paths/get-started-cds/" target="_blank">Microsoft Learn Training: Get started using Microsoft Dataverse</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="super-remark-cont">
+            <img class="remark-img" src="https://i.imgur.com/0XGrDJY.png">
+            <p class="remark-txt">With Dataverse, we are faster than a speeding bullet and stronger than titanium!</p>
+        </div>
+
+        <!--Chapter 2-->
+        <div class="chapter-div">
+            <h2 class="chapter-title">Superpower 2: Canvas Apps</h2>
+            <div class="chapter-content">
+                <iframe class="chapter-video" width="560" height="315" src="https://www.youtube.com/embed/KDe9jvGMpjc?si=o9qb9hvhFxptrZBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="chapter-desc-box">
+                    <p class="chapter-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget eleifend orci. Pellentesque interdum odio vel dolor fringilla, at eleifend quam egestas.</p>
+                    <div class="listed-resource">
+                        <img class="zip" style="grid-area: zipimg;" src="https://i.imgur.com/aLkdzjh.png">
+                        <a class="zip-txt" href="" target="_blank">Download the Backlog Avenger's solution here</a>
+                    </div>
+                    <div class="listed-resource">
+                        <img class="zip" style="grid-area: zipimg;" src="https://i.imgur.com/5e8KJiX.png">
+                        <a class="zip-txt" href="" target="_blank">Click here for another resource</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="super-remark-cont">
+            <img class="remark-img" src="https://i.imgur.com/en5AAJD.png">
+            <p class="remark-txt">Now with a slick user interface, we are unstoppable!</p>
+        </div>
+
+        <!--Chapter 3-->
+        <div class="chapter-div">
+            <h2 class="chapter-title">Superpower 3: Model-Driven Apps</h2>
+            <div class="chapter-content">
+                <iframe class="chapter-video" width="560" height="315" src="https://www.youtube.com/embed/kHFfZNqK5Y4?si=5IBFtiu0nyw__VNL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="chapter-desc-box">
+                    <p class="chapter-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget eleifend orci. Pellentesque interdum odio vel dolor fringilla, at eleifend quam egestas.</p>
+                    <div class="listed-resource">
+                        <img class="zip" style="grid-area: zipimg;" src="https://i.imgur.com/aLkdzjh.png">
+                        <a class="zip-txt" href="" target="_blank">Download the Backlog Avenger's solution here</a>
+                    </div>
+                    <div class="listed-resource">
+                        <img class="zip" style="grid-area: zipimg;" src="https://i.imgur.com/5e8KJiX.png">
+                        <a class="zip-txt" href="" target="_blank">Click here for another resource</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="super-remark-cont">
+            <img class="remark-img" src="https://i.imgur.com/megu9s4.png">
+            <p class="remark-txt">By harnessing the power of the data model, we're building apps at lightspeed!</p>
+        </div>
+
+    </body>
+</html>
