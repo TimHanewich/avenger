@@ -19,7 +19,7 @@
 
 .chapter-title
 {
-    text-align: center;
+    text-align: left;
     grid-area: title;
     padding: 0px;
     margin: 0px;
@@ -33,6 +33,7 @@
     grid-area: content;
     display: grid;
     grid-template-areas: "video description";
+    margin-top: 8px;
 }
 
 .chapter-video
@@ -90,4 +91,48 @@
 {
     font-family: q;
     font-size: 1.5em;
+}
+
+.ctab-font
+{
+    font-family: q;
+}
+
+.zip
+{
+    width: 40px;
+    height: 40px;
+}
+
+.zip-txt
+{
+    display: inline;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+
+.ctab-chapter
+{
+    padding: 30px;
+    background-color: #DEDEDE;
+}
+
+.listed-resource
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chapter-title-box
+{
+    width: 100%;
+    border-bottom: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
 }
