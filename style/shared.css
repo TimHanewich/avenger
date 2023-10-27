@@ -1,0 +1,55 @@
+.chapter-div
+{
+    width: 80%;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "title"
+        "content";
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+.chapter-title
+{
+    text-align: center;
+    grid-area: title;
+    padding: 0px;
+    margin: 0px;
+    font-family: super;
+    font-size: 60px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.chapter-content
+{
+    grid-area: content;
+    display: grid;
+    grid-template-areas: "video description";
+}
+
+.chapter-video
+{
+    grid-area: video;
+}
+
+.chapter-desc-box
+{
+    grid-area: description;
+    margin: 8px;
+}
+
+.chapter-desc
+{
+    font-size: 30px;
+    margin-top: 0px;
+    font-family: "Comic Sans MS";
+}
