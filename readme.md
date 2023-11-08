@@ -1,7 +1,7 @@
 ## Conquer the App Backlog with the Backlog Avenger
 ![backlog avenger](https://i.imgur.com/1TXYEKJ.png)
 
-Go to [https://timhanewich.github.io/avenger/](https://timhanewich.github.io/avenger/) to view this webpage!
+Go to [https://backlogavenger.com](https://backlogavenger.com) to view this webpage!
 
 
 ## Notes
