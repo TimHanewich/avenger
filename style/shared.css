@@ -157,3 +157,13 @@ txt-emph
     margin-bottom: 0px;
     margin-top: 50px;
 }
+
+.stage-skip
+{
+    text-align: center;
+    font-family: inherit;
+    margin-top: 0px;
+    font-family: q;
+    font-size: 25px;
+    white-space: pre;
+}
