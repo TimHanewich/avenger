@@ -167,3 +167,8 @@ txt-emph
     font-size: 25px;
     white-space: pre;
 }
+
+li
+{
+    margin-bottom: 8px;
+}
